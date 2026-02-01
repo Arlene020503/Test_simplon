@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test En Ligne - Portfolio Arlène</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="en-tete">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À propos de moi</a></li>
+                <li><a href="#passion">Ma passion</a></li>
+                <li><a href="#cv">Mon CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <img src="logo.jpg" alt="Logo AR Tricot" class="logo">
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <h1>Bienvenue chez Ar Tricot</h1>
+            <p style="text-align: center;">Découvrez mon univers créatif en vidéo.</p>
+            <div class="video-container">
+               <video controls>
+                   <source src="vid.mp4" type="video/mp4">
+                   Votre navigateur ne supporte pas la lecture de vidéos.
+               </video>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p><strong>Nom :</strong> Bégnan Arlène Audrey Delaure ASSOUA</p>
+            <p><strong>Parcours :</strong> Passionnée par l'artisanat et le développement, je lie la précision technique du code à la minutie du travail fait main. Fondatrice de la marque AR Tricot, je m'efforce d'atteindre l'excellence dans chaque projet.</p>
+            <p><strong>Centres d'intérêt :</strong> Entrepreneuriat, mode éthique, nouvelles technologies et design créatif.</p>
+        </section>
+
+        <section id="passion">
+            <h2>Ma passion : Le Tricot & Crochet</h2>
+            <h3>Pourquoi cette passion ?</h3>
+            <p>Ma passion pour le tricot et le crochet vient du désir de créer quelque chose d'unique à partir d'un simple fil. C'est un art qui demande patience, précision et créativité. Chez <strong>AR Tricot</strong>, chaque maille raconte une histoire et chaque pièce allie confort et durabilité.</p>
+            
+            <ul>
+                <li>Vêtements personnalisés (adultes, enfants, bébés)</li>
+                <li>Accessoires faits main (sacs, bonnets, pochettes)</li>
+                <li>Articles décoratifs</li>
+            </ul>
+
+            <blockquote>"À la limite de la perfection."</blockquote>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <button id="btn-message">Cliquez pour voir un message</button>
+            </div>
+        </section>
+
+        <section id="cv">
+            <h2>Mon CV</h2>
+            <p style="text-align: center;">Consultez mes compétences techniques.</p>
+            <div style="text-align: center;">
+                <a href="cv AR.pdf" download class="btn-cv">Télécharger mon CV (PDF)</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Me contacter</h2>
+            <form action="#">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Envoyer le message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Bégnan Arlène Audrey Delaure ASSOUA. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
