@@ -189,3 +189,16 @@ footer {
         margin: 10px;
     }
 }
+#about ul {
+    list-style: none; /* Enlève les puces par défaut */
+    padding-left: 0;
+}
+
+#about ul li::before {
+    content: "🧶 "; /* Ajoute une petite pelote de laine devant chaque intérêt */
+    margin-right: 10px;
+}
+
+#about strong {
+    color: var(--orange); /* Met les mots-clés en orange */
+}
