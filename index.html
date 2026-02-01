@@ -11,74 +11,53 @@
     <header>
         <nav class="en-tete">
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#about">À propos</a></li>
+                <li><a href="#about">À propos de moi</a></li>
                 <li><a href="#passion">Ma passion</a></li>
-                <li><a href="#cv">Mon CV</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
             <img src="logo.jpg" alt="Logo AR Tricot" class="logo">
         </nav>
     </header>
 
     <main>
-        <section id="accueil">
-            <h1>Bienvenue chez Ar Tricot</h1>
-            <p style="text-align: center;">Découvrez mon univers créatif en vidéo.</p>
-            <div class="video-container">
-               <video controls>
-                   <source src="vid.mp4" type="video/mp4">
-                   Votre navigateur ne supporte pas la lecture de vidéos.
-               </video>
-            </div>
-        </section>
-
         <section id="about">
-            <h2>À propos de moi</h2>
+            <h2> À propos de moi</h2>
             <div class="presentation-container">
-                <p><strong>Présentation :</strong> Je suis <strong>Bégnan Arlène Audrey Delaure ASSOUA</strong>. Passionnée par la création sous toutes ses formes, j'aime transformer des idées abstraites en produits concrets et tangibles.</p>
+                <p><strong>Nom :</strong> Bégnan Arlène Audrey Delaure ASSOUA</p>
                 
                 <p><strong>Mon Parcours :</strong> Mon cheminement est marqué par la création de ma marque artisanale, <strong>AR Tricot</strong>. Ce projet est né de ma volonté de valoriser le travail fait main et l'excellence. Ce parcours m'a permis de développer une grande rigueur, une patience minutieuse et une solide capacité d'apprentissage en autonomie.</p>
                 
-                <h3>Mes Centres d'intérêt</h3>
-                <ul class="interests-list">
-                    <li><strong>Artisanat Créatif :</strong> Le tricot et le crochet comme moyens d'expression artistique.</li>
-                    <li><strong>Technologie & Web :</strong> L'apprentissage du développement web pour digitaliser mon savoir-faire.</li>
-                    <li><strong>Design & Mode :</strong> La recherche de l'esthétique et de l'harmonie des formes.</li>
-                    <li><strong>Entrepreneuriat :</strong> La gestion de projet et la relation client.</li>
-                </ul>
+                <p><strong>Mes Centres d'intérêt :</strong> Artisanat Créatif (tricot/crochet), Technologie & Web, Design de mode et Entrepreneuriat.</p>
+                <br><br>
+                <hr> <p style="text-align: center;">Découvrez mon univers en vidéo et consultez mon parcours complet :</p>
+                <div class="video-container">
+                   <video controls>
+                       <source src="vid.mp4" type="video/mp4">
+                       Votre navigateur ne supporte pas la lecture de vidéos.
+                   </video>
+                </div>
+                <div style="text-align: center; margin-top: 15px;">
+                    <a href="cv AR.pdf" download class="btn-cv">Télécharger mon CV (PDF)</a>
+                </div>
             </div>
         </section>
 
         <section id="passion">
-            <h2>Ma passion : Le Tricot & Crochet</h2>
-            <h3>Pourquoi cette passion ?</h3>
-            <p>Le tricot est bien plus qu'un simple passe-temps pour moi : c'est une thérapie créative. Ma passion vient du défi de partir d'un simple fil pour aboutir à un vêtement ou un accessoire complexe. J'aime l'idée de créer des objets durables, authentiques et personnalisés qui apportent du confort aux gens.</p>
+            <h2> Ma passion</h2>
+            <h3>Le Tricot & Crochet : Pourquoi cette passion ?</h3>
+            <p>Le tricot est pour moi une thérapie créative. Ma passion vient du défi de partir d'un simple fil pour aboutir à un vêtement complexe. J'aime l'idée de créer des objets durables, authentiques et personnalisés.</p>
             
-            <p>À travers <strong>AR Tricot</strong>, je partage cette passion en proposant :</p>
-            <ul>
-                <li>Vêtements pour adultes et enfants.</li>
-                <li>Accessoires de mode uniques (sacs, bonnets).</li>
-                <li>Articles de décoration faits main.</li>
-            </ul>
+            <p>Chez <strong>AR Tricot</strong>, je propose des vêtements personnalisés, des accessoires de mode et des articles de décoration faits main.</p>
 
             <blockquote>Slogan : À la limite de la perfection.</blockquote>
             
             <div style="text-align: center; margin-top: 20px;">
                 <button id="btn-message">Cliquez pour un message spécial</button>
             </div>
-        </section>
+            <br><br>
 
-        <section id="cv">
-            <h2>Mon CV</h2>
-            <p style="text-align: center;">Découvrez mes compétences techniques et mon expérience.</p>
-            <div style="text-align: center;">
-                <a href="cv AR.pdf" download class="btn-cv">Télécharger mon CV (PDF)</a>
-            </div>
-        </section>
+            <hr>
 
-        <section id="contact">
-            <h2>Me contacter</h2>
+            <h3>Me contacter</h3>
             <form action="#">
                 <label for="nom">Nom :</label>
                 <input type="text" id="nom" name="nom" required>
@@ -87,9 +66,9 @@
                 <input type="email" id="email" name="email" required>
 
                 <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="4"></textarea>
+                <textarea id="message" name="message" rows="3"></textarea>
 
-                <button type="submit">Envoyer le message</button>
+                <button type="submit">Envoyer</button>
             </form>
         </section>
     </main>
